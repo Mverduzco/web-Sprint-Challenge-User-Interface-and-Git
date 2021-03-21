@@ -66,9 +66,29 @@ p {
     line-height: 1.4;
 }
 
+header {
+    width: 800px;
+    margin: auto;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.item {
+    padding-top: 10px;
+}
+
+.jumbo {
+    margin-bottom: 20px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+    
 }
 
 .top-content {
@@ -82,7 +102,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
